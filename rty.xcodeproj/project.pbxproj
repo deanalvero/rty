@@ -14,6 +14,15 @@
 		2537D8251B058B40007FEEE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2537D8241B058B40007FEEE1 /* Images.xcassets */; };
 		2537D8281B058B40007FEEE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2537D8261B058B40007FEEE1 /* LaunchScreen.xib */; };
 		2537D8341B058B40007FEEE1 /* rtyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2537D8331B058B40007FEEE1 /* rtyTests.m */; };
+		2537D8471B05A266007FEEE1 /* beastmaster.png in Resources */ = {isa = PBXBuildFile; fileRef = 2537D83E1B05A266007FEEE1 /* beastmaster.png */; };
+		2537D8481B05A266007FEEE1 /* chaos_knight.png in Resources */ = {isa = PBXBuildFile; fileRef = 2537D83F1B05A266007FEEE1 /* chaos_knight.png */; };
+		2537D8491B05A266007FEEE1 /* clinkz.png in Resources */ = {isa = PBXBuildFile; fileRef = 2537D8401B05A266007FEEE1 /* clinkz.png */; };
+		2537D84A1B05A266007FEEE1 /* dragon_knight.png in Resources */ = {isa = PBXBuildFile; fileRef = 2537D8411B05A266007FEEE1 /* dragon_knight.png */; };
+		2537D84B1B05A266007FEEE1 /* earthshaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 2537D8421B05A266007FEEE1 /* earthshaker.png */; };
+		2537D84C1B05A266007FEEE1 /* life_stealer.png in Resources */ = {isa = PBXBuildFile; fileRef = 2537D8431B05A266007FEEE1 /* life_stealer.png */; };
+		2537D84D1B05A266007FEEE1 /* lina.png in Resources */ = {isa = PBXBuildFile; fileRef = 2537D8441B05A266007FEEE1 /* lina.png */; };
+		2537D84E1B05A266007FEEE1 /* phoenix.png in Resources */ = {isa = PBXBuildFile; fileRef = 2537D8451B05A266007FEEE1 /* phoenix.png */; };
+		2537D84F1B05A266007FEEE1 /* techies.png in Resources */ = {isa = PBXBuildFile; fileRef = 2537D8461B05A266007FEEE1 /* techies.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,15 @@
 		2537D82D1B058B40007FEEE1 /* rtyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rtyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2537D8321B058B40007FEEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2537D8331B058B40007FEEE1 /* rtyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rtyTests.m; sourceTree = "<group>"; };
+		2537D83E1B05A266007FEEE1 /* beastmaster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beastmaster.png; sourceTree = "<group>"; };
+		2537D83F1B05A266007FEEE1 /* chaos_knight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chaos_knight.png; sourceTree = "<group>"; };
+		2537D8401B05A266007FEEE1 /* clinkz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinkz.png; sourceTree = "<group>"; };
+		2537D8411B05A266007FEEE1 /* dragon_knight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon_knight.png; sourceTree = "<group>"; };
+		2537D8421B05A266007FEEE1 /* earthshaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthshaker.png; sourceTree = "<group>"; };
+		2537D8431B05A266007FEEE1 /* life_stealer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = life_stealer.png; sourceTree = "<group>"; };
+		2537D8441B05A266007FEEE1 /* lina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lina.png; sourceTree = "<group>"; };
+		2537D8451B05A266007FEEE1 /* phoenix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phoenix.png; sourceTree = "<group>"; };
+		2537D8461B05A266007FEEE1 /* techies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = techies.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,7 @@
 		2537D8161B058B40007FEEE1 /* rty */ = {
 			isa = PBXGroup;
 			children = (
+				2537D83D1B05A20D007FEEE1 /* Images */,
 				2537D81B1B058B40007FEEE1 /* AppDelegate.h */,
 				2537D81C1B058B40007FEEE1 /* AppDelegate.m */,
 				2537D81E1B058B40007FEEE1 /* ViewController.h */,
@@ -117,6 +136,22 @@
 				2537D8321B058B40007FEEE1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2537D83D1B05A20D007FEEE1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2537D83E1B05A266007FEEE1 /* beastmaster.png */,
+				2537D83F1B05A266007FEEE1 /* chaos_knight.png */,
+				2537D8401B05A266007FEEE1 /* clinkz.png */,
+				2537D8411B05A266007FEEE1 /* dragon_knight.png */,
+				2537D8421B05A266007FEEE1 /* earthshaker.png */,
+				2537D8431B05A266007FEEE1 /* life_stealer.png */,
+				2537D8441B05A266007FEEE1 /* lina.png */,
+				2537D8451B05A266007FEEE1 /* phoenix.png */,
+				2537D8461B05A266007FEEE1 /* techies.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +234,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2537D84E1B05A266007FEEE1 /* phoenix.png in Resources */,
+				2537D8481B05A266007FEEE1 /* chaos_knight.png in Resources */,
+				2537D84D1B05A266007FEEE1 /* lina.png in Resources */,
 				2537D8231B058B40007FEEE1 /* Main.storyboard in Resources */,
+				2537D8491B05A266007FEEE1 /* clinkz.png in Resources */,
+				2537D8471B05A266007FEEE1 /* beastmaster.png in Resources */,
+				2537D84B1B05A266007FEEE1 /* earthshaker.png in Resources */,
+				2537D84C1B05A266007FEEE1 /* life_stealer.png in Resources */,
+				2537D84A1B05A266007FEEE1 /* dragon_knight.png in Resources */,
 				2537D8281B058B40007FEEE1 /* LaunchScreen.xib in Resources */,
 				2537D8251B058B40007FEEE1 /* Images.xcassets in Resources */,
+				2537D84F1B05A266007FEEE1 /* techies.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
